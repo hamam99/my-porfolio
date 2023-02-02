@@ -1,8 +1,5 @@
-import Image from 'next/image'
 import Link from 'next/link'
-import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai'
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
-import { BsPersonLinesFill } from 'react-icons/bs'
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { useEffect, useState } from 'react'
 
 const Navbar = () => {
