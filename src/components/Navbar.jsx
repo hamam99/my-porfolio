@@ -32,12 +32,14 @@ const Navbar = () => {
       }
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-        <Image
-          src="/../public/assets/navLogo.png"
-          alt="/"
-          width={125}
-          height={50}
-        />
+        <Link href={'/#home'} scroll={false}>
+          <Image
+            src="/../public/assets/navLogo.png"
+            alt="/"
+            width={125}
+            height={50}
+          />
+        </Link>
         <div>
           <ul className="hidden md:flex">
             <Link
