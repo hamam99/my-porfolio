@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 import AboutImg from '/public/assets/about.jpg'
 
@@ -21,9 +22,11 @@ export default function About() {
             I have 2 years experience using Kotlin and Java to build android app
             and have 3 years using React Native
           </p>
-          <p className="py-2 text-gray-600 underline cursor-pointer">
-            Check out some of my latest projects.
-          </p>
+          <Link href={'/#projects'}>
+            <p className="py-2 text-gray-600 underline cursor-pointer">
+              Check out some of my latest projects.
+            </p>
+          </Link>
         </div>
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image src={AboutImg} alt={''} className={'rounded-xl'} />
