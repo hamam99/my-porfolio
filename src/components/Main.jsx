@@ -32,7 +32,7 @@ export default function Main() {
             </div>
             <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
               <BsPersonLinesFill />
-            </div>{' '}
+            </div>
           </div>
         </div>
       </div>
