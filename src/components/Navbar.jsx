@@ -3,16 +3,34 @@ import Link from 'next/link'
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from 'react-icons/ai'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { BsPersonLinesFill } from 'react-icons/bs'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
-function Navbar() {
+const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleNav = () => {
     setNav((prev) => !prev)
   }
 
+  const [shadow, setShadow] = useState(false)
+  useEffect(() => {
+    const handleShadow = () => {
+      if (window.scrollY >= 90) {
+        setShadow(true)
+      } else {
+        setShadow(false)
+      }
+    }
+    window.addEventListener('scroll', handleShadow)
+  }, [])
+
   return (
-    <div className="fixed w-full h-20 shadow-xl z-[100]">
+    <div
+      className={
+        shadow
+          ? 'fixed w-full h-20 shadow-xl z-[100]'
+          : 'fixed w-full h-20 z-[100]'
+      }
+    >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Image
           src="/../public/assets/navLogo.png"
@@ -22,19 +40,39 @@ function Navbar() {
         />
         <div>
           <ul className="hidden md:flex">
-            <Link href="/" className="ml-10 text-sm uppercase hover:border-b">
+            <Link
+              href="/#home"
+              className="ml-10 text-sm uppercase hover:border-b"
+              scroll={false}
+            >
               Home
             </Link>
-            <Link href="/" className="ml-10 text-sm uppercase hover:border-b">
+            <Link
+              href="/#about"
+              className="ml-10 text-sm uppercase hover:border-b"
+              scroll={false}
+            >
               About
             </Link>
-            <Link href="/" className="ml-10 text-sm uppercase hover:border-b">
+            <Link
+              href="/#skills"
+              className="ml-10 text-sm uppercase hover:border-b"
+              scroll={false}
+            >
               Skills
             </Link>
-            <Link href="/" className="ml-10 text-sm uppercase hover:border-b">
+            <Link
+              href="/#projects"
+              className="ml-10 text-sm uppercase hover:border-b"
+              scroll={false}
+            >
               Projects
             </Link>
-            <Link href="/" className="ml-10 text-sm uppercase hover:border-b">
+            <Link
+              href="/#contact"
+              className="ml-10 text-sm uppercase hover:border-b"
+              scroll={false}
+            >
               Contact
             </Link>
           </ul>
