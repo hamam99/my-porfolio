@@ -11,18 +11,15 @@ export default function About() {
             About
           </p>
           <h2 className="py-4">Who I am</h2>
-          <p className="py-2 text-gray-600">//I am not your normal developer</p>
+          <p className="py-2 text-gray-600">{`//I am not your normal developer`}</p>
           <p className="py-2 text-gray-600">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda
-            error, quas quis et blanditiis molestias ducimus saepe eum expedita
-            maxime ad, odio consequuntur sapiente ut quasi neque impedit
-            accusamus. Doloribus?
+            I am specialize in building mobile app front-end UI that connect
+            with API and other backend technologies. I like about learning new
+            technologies. For now, I am using React Native to build mobile app.
           </p>
           <p className="py-2 text-gray-600">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
-            debitis temporibus corrupti quae veniam deserunt odio! Illo eius
-            nesciunt consectetur? Dignissimos ex neque ducimus voluptates porro
-            ipsa provident vitae voluptatum?
+            I have 2 years experience using Kotlin and Java to build android app
+            and have 3 years using React Native
           </p>
           <p className="py-2 text-gray-600 underline cursor-pointer">
             Check out some of my latest projects.

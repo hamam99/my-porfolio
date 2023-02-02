@@ -14,30 +14,14 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap4- justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src={'/../public/assets/skills/html.png'}
+                  src={'/../public/assets/skills/react.png'}
                   alt="/"
                   width={64}
                   height={64}
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>HTML</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap4- justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src={'/../public/assets/skills/css.png'}
-                  alt="/"
-                  width={64}
-                  height={64}
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>CSS</h3>
+                <h3>React JS & React Native</h3>
               </div>
             </div>
           </div>
@@ -54,38 +38,6 @@ const Skills = () => {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Firebase</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap4- justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src={'/../public/assets/skills/github1.png'}
-                  alt="/"
-                  width={64}
-                  height={64}
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Github</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap4- justify-center items-center">
-              <div className="m-auto">
-                <Image
-                  src={'/../public/assets/skills/react.png'}
-                  alt="/"
-                  width={64}
-                  height={64}
-                />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>React JS & React Native</h3>
               </div>
             </div>
           </div>
