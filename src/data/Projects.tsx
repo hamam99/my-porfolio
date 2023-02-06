@@ -1,6 +1,7 @@
 import jakpat from '/public/assets/projects/jakpat.jpg'
 import appfuxion from '/public/assets/projects/appfuxion.png'
 import newsapp from '/public/assets/projects/newsapp.jpg'
+import myDoctor from '/public/assets/projects/my-doctor.jpg'
 
 const Projects = [
   {
@@ -24,12 +25,20 @@ const Projects = [
     technology: 'React Native'
   },
   {
-    name: 'News App',
+    name: 'Simple News App',
     description: 'A Simple News app using axios and react-query',
     image: newsapp,
     urlDemo: '',
     urlCode: 'https://github.com/hamam99/NewsApp',
     technology: 'React Native'
+  },
+  {
+    name: 'My Doctor App',
+    description: 'Simple app for consultation to doctor using Firebase',
+    image: myDoctor,
+    urlDemo: '',
+    urlCode: 'https://github.com/hamam99/MyDoctor-BWA',
+    technology: 'React Native + Firebase'
   }
 ]
 
