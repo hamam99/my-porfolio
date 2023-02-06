@@ -8,21 +8,27 @@ const Projects = [
     description: 'Survey Online App',
     image: jakpat,
     url: 'https://play.google.com/store/apps/details?id=com.git.jakpat.jajakpendapat',
+    urlDemo:
+      'https://play.google.com/store/apps/details?id=com.git.jakpat.jajakpendapat',
+    urlCode: '1',
     technology: 'React Native'
   },
   {
     name: 'Fuxion Spark',
     description:
-      'a gigs provider apps for talent to bid a job and for searching talent',
+      'A gigs provider apps for talent to bid a job and for searching talent',
     image: appfuxion,
-    url: 'https://play.google.com/store/apps/details?id=com.fuxionspark&hl=id&gl=US',
+    urlDemo:
+      'https://play.google.com/store/apps/details?id=com.fuxionspark&hl=id&gl=US',
+    urlCode: '',
     technology: 'React Native'
   },
   {
     name: 'News App',
     description: 'A Simple News app using axios and react-query',
     image: newsapp,
-    url: 'https://github.com/hamam99/NewsApp',
+    urlDemo: '',
+    urlCode: 'https://github.com/hamam99/NewsApp',
     technology: 'React Native'
   }
 ]

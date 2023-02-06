@@ -5,14 +5,16 @@ import propertyImg from '/public/assets/projects/property.jpg'
 type IProps = {
   title: string
   background: string | StaticImageData
-  projectUrl: string
+  urlDemo: string
+  urlCode: string
   technology: string
   description: string
 }
 const ProjectItem = ({
   title,
   background,
-  projectUrl,
+  urlDemo,
+  urlCode,
   technology,
   description
 }: IProps) => {
@@ -27,12 +29,38 @@ const ProjectItem = ({
         <h3 className="text-2xl text-white tracking-wider text-center">
           {title}
         </h3>
+        <p className=" text-white text-center">{technology}</p>
         <p className="pb-4 pt-2 text-white text-center">{description}</p>
-        <Link href={projectUrl} target={'_blank'}>
-          <p className="text-center ppy-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer">
-            More Info
-          </p>
-        </Link>
+        <div
+          className={
+            urlDemo && urlCode
+              ? 'flex flex-row justify-center gap-4'
+              : 'flex flex-row justify-center'
+          }
+        >
+          <Link href={urlDemo} target={'_blank'}>
+            <p
+              className={
+                urlDemo
+                  ? 'text-center px-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer'
+                  : 'hidden'
+              }
+            >
+              Demo
+            </p>
+          </Link>
+          <Link href={urlCode} target={'_blank'}>
+            <p
+              className={
+                urlCode
+                  ? 'text-center px-3 rounded-lg bg-white text-gray-700 font-bold cursor-pointer'
+                  : 'hidden'
+              }
+            >
+              Code
+            </p>
+          </Link>
+        </div>
       </div>
     </div>
   )
