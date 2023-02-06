@@ -10,7 +10,7 @@ const Projects = [
     url: 'https://play.google.com/store/apps/details?id=com.git.jakpat.jajakpendapat',
     urlDemo:
       'https://play.google.com/store/apps/details?id=com.git.jakpat.jajakpendapat',
-    urlCode: '1',
+    urlCode: '',
     technology: 'React Native'
   },
   {
