@@ -44,7 +44,7 @@ const Projects = [
   {
     name: 'Lendela SG',
     description: 'Clone landing page Lendela SG for learning',
-    image: myDoctor,
+    image: reactLendela,
     urlDemo: '',
     urlCode: 'https://github.com/hamam99/clone-lendela',
     technology: 'NextJS + TailwindCSS'
