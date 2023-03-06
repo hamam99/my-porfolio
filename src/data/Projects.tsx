@@ -2,6 +2,7 @@ import jakpat from '/public/assets/projects/jakpat.jpg'
 import appfuxion from '/public/assets/projects/appfuxion.png'
 import newsapp from '/public/assets/projects/newsapp.jpg'
 import myDoctor from '/public/assets/projects/my-doctor.jpg'
+import reactLendela from '/public/assets/projects/react-lendela.jpg'
 
 const Projects = [
   {
@@ -39,6 +40,14 @@ const Projects = [
     urlDemo: '',
     urlCode: 'https://github.com/hamam99/MyDoctor-BWA',
     technology: 'React Native + Firebase'
+  },
+  {
+    name: 'Lendela SG',
+    description: 'Clone landing page Lendela SG for learning',
+    image: myDoctor,
+    urlDemo: '',
+    urlCode: 'https://github.com/hamam99/clone-lendela',
+    technology: 'NextJS + TailwindCSS'
   }
 ]
 
