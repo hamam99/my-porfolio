@@ -3,8 +3,29 @@ import appfuxion from '/public/assets/projects/appfuxion.png'
 import newsapp from '/public/assets/projects/newsapp.jpg'
 import myDoctor from '/public/assets/projects/my-doctor.jpg'
 import reactLendela from '/public/assets/projects/react-lendela.jpg'
+import tmestetik from '/public/assets/projects/tmestetik.jpg'
+import presensi from '/public/assets/projects/presensi.jpg'
 
 const Projects = [
+  {
+    name: 'TM Estetik',
+    description: 'Online shop for tmestetik.com',
+    image: tmestetik,
+    url: 'https://play.google.com/store/apps/details?id=com.tmestetik',
+    urlDemo: 'https://play.google.com/store/apps/details?id=com.tmestetik',
+    urlCode: '',
+    technology: 'React Native, Zustand, Axios'
+  },
+  {
+    name: 'Presensi',
+    description: 'Absense App for Teacher',
+    image: presensi,
+    url: 'https://play.google.com/store/apps/details?id=com.git.jakpat.jajakpendapat',
+    urlDemo:
+      'https://play.google.com/store/apps/details?id=com.git.jakpat.jajakpendapat',
+    urlCode: '',
+    technology: 'React Native, Zustand, Axios'
+  },
   {
     name: 'Jakpat',
     description: 'Survey Online App',
