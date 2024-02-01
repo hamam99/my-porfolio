@@ -20,9 +20,9 @@ const Projects = [
     name: 'Presensi',
     description: 'Absense App for Teacher',
     image: presensi,
-    url: 'https://play.google.com/store/apps/details?id=com.git.jakpat.jajakpendapat',
+    url: 'https://play.google.com/store/apps/details?id=com.absensimobile.tanah.bambu',
     urlDemo:
-      'https://play.google.com/store/apps/details?id=com.git.jakpat.jajakpendapat',
+      'https://play.google.com/store/apps/details?id=com.absensimobile.tanah.bambu',
     urlCode: '',
     technology: 'React Native, Zustand, Axios'
   },
