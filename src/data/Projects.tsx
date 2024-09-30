@@ -5,6 +5,8 @@ import myDoctor from '/public/assets/projects/my-doctor.jpg'
 import reactLendela from '/public/assets/projects/react-lendela.jpg'
 import tmestetik from '/public/assets/projects/tmestetik.jpg'
 import presensi from '/public/assets/projects/presensi.jpg'
+import onlineCourse from '/public/assets/projects/online-course.jpg'
+import maybankTrade from '/public/assets/projects/maybank-trade.jpg'
 
 const Projects = [
   {
@@ -14,7 +16,7 @@ const Projects = [
     url: 'https://play.google.com/store/apps/details?id=com.tmestetik',
     urlDemo: 'https://play.google.com/store/apps/details?id=com.tmestetik',
     urlCode: '',
-    technology: 'React Native, Zustand, Axios'
+    technology: 'React Native + Zustand + Axios'
   },
   {
     name: 'Presensi',
@@ -24,7 +26,7 @@ const Projects = [
     urlDemo:
       'https://play.google.com/store/apps/details?id=com.absensimobile.tanah.bambu',
     urlCode: '',
-    technology: 'React Native, Zustand, Axios'
+    technology: 'React Native + Zustand + Axios'
   },
   {
     name: 'Jakpat',
@@ -34,7 +36,25 @@ const Projects = [
     urlDemo:
       'https://play.google.com/store/apps/details?id=com.git.jakpat.jajakpendapat',
     urlCode: '',
-    technology: 'React Native'
+    technology: 'React Native + Firebase'
+  },
+  {
+    name: 'Online Course',
+    description: 'Online Course App',
+    image: onlineCourse,
+    url: '',
+    urlDemo:'',
+    urlCode: 'https://github.com/hamam99/OnlineCourse',
+    technology: 'React Native + GraphQL + Auth0'
+  },
+  {
+    name: 'Maybank Trade',
+    description: 'App for buy and sell Indonesia Stocks',
+    image: maybankTrade,
+    url: 'https://play.google.com/store/apps/details?id=com.mbb.titan.id',
+    urlDemo:'https://play.google.com/store/apps/details?id=com.mbb.titan.id',
+    urlCode: '',
+    technology: 'React Native + Websocket + Chart + Redux'
   },
   {
     name: 'Fuxion Spark',
@@ -44,7 +64,7 @@ const Projects = [
     urlDemo:
       'https://play.google.com/store/apps/details?id=com.fuxionspark&hl=id&gl=US',
     urlCode: '',
-    technology: 'React Native'
+    technology: 'React Native + Firebase'
   },
   {
     name: 'Simple News App',
