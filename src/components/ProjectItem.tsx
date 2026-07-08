@@ -1,6 +1,5 @@
 import Image, { StaticImageData } from 'next/image'
 import Link from 'next/link'
-import propertyImg from '/public/assets/projects/property.jpg'
 
 type IProps = {
   title: string

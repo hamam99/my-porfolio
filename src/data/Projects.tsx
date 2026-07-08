@@ -1,15 +1,15 @@
-import jakpat from "/public/assets/projects/jakpat.jpg";
-import appfuxion from "/public/assets/projects/appfuxion.png";
-import newsapp from "/public/assets/projects/newsapp.jpg";
-import myDoctor from "/public/assets/projects/my-doctor.jpg";
-import reactLendela from "/public/assets/projects/react-lendela.jpg";
-import tmestetik from "/public/assets/projects/tmestetik.jpg";
-import presensi from "/public/assets/projects/presensi.jpg";
-import onlineCourse from "/public/assets/projects/online-course.jpg";
-import maybankTradeId from "/public/assets/projects/maybank-trade-id.jpg";
-import kenangaMfa from "/public/assets/projects/kenanga-mfa.jpg";
-import tarbee from "/public/assets/projects/tarbee.jpg";
-import maybankTrade from "/public/assets/projects/maybank-trade.jpg";
+import jakpat from "../../public/assets/projects/jakpat.jpg";
+import appfuxion from "../../public/assets/projects/appfuxion.png";
+import newsapp from "../../public/assets/projects/newsapp.jpg";
+import myDoctor from "../../public/assets/projects/my-doctor.jpg";
+import reactLendela from "../../public/assets/projects/react-lendela.jpg";
+import tmestetik from "../../public/assets/projects/tmestetik.jpg";
+import presensi from "../../public/assets/projects/presensi.jpg";
+import onlineCourse from "../../public/assets/projects/online-course.jpg";
+import maybankTradeId from "../../public/assets/projects/maybank-trade-id.jpg";
+import kenangaMfa from "../../public/assets/projects/kenanga-mfa.jpg";
+import tarbee from "../../public/assets/projects/tarbee.jpg";
+import maybankTrade from "../../public/assets/projects/maybank-trade.jpg";
 
 const Projects = [
   {
