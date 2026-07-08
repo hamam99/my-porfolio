@@ -1,10 +1,10 @@
-import AboutMe from '@/data/AboutMe'
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
-import ContactImg from '/public/assets/contact.jpg'
+import AboutMe from "@/data/AboutMe";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import ContactImg from "/public/assets/contact.jpg";
 
 const Contact = () => {
   return (
@@ -32,21 +32,6 @@ const Contact = () => {
                   I am available for freelance or full-time positions. Contact
                   me and let&apos;s talk.
                 </p>
-              </div>
-              <div>
-                <p className="uppercase pt-8">Connect With Me</p>
-                <div className="flex items-center justify-start py-4 gap-4">
-                  <a href={AboutMe.linkedin} target="_blank" rel="noreferrer">
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <FaLinkedinIn />
-                    </div>
-                  </a>
-                  <a href={AboutMe.github} target="_blank" rel="noreferrer">
-                    <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                      <FaGithub />
-                    </div>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
@@ -119,7 +104,7 @@ const Contact = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
