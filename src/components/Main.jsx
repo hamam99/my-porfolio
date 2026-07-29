@@ -1,8 +1,7 @@
-import { AiOutlineMail } from 'react-icons/ai'
-import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
-import Link from 'next/link'
-import AboutMe from '@/data/AboutMe'
-import { SiUpwork } from "react-icons/si";
+import AboutMe from '@/data/AboutMe';
+import Link from 'next/link';
+import { AiOutlineMail } from 'react-icons/ai';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 
 export default function Main() {
   return (
@@ -36,11 +35,11 @@ export default function Main() {
                 <AiOutlineMail />
               </div>
             </Link>
-            <a href={AboutMe.upwork} target="_blank" rel="noreferrer">
+            {/* <a href={AboutMe.upwork} target="_blank" rel="noreferrer">
               <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-105 ease-in duration-300">
                 <SiUpwork />
               </div>
-            </a>
+            </a>*/}
           </div>
         </div>
       </div>

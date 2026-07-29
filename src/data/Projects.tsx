@@ -10,11 +10,23 @@ import maybankTradeId from "../../public/assets/projects/maybank-trade-id.jpg";
 import kenangaMfa from "../../public/assets/projects/kenanga-mfa.jpg";
 import tarbee from "../../public/assets/projects/tarbee.jpg";
 import maybankTrade from "../../public/assets/projects/maybank-trade.jpg";
+import FoodIngredientsAnalyzer from "../../public/assets/projects/food-ingredients-analyzer.jpg";
 
 const Projects = [
   {
+    name: "AI Food Ingredients Analyzer",
+    description:
+      "AI Food Ingredients Analyzer is an app that uses AI to analyze food ingredients and provide information about their nutritional value",
+    image: FoodIngredientsAnalyzer,
+    url: "",
+    urlDemo: "",
+    urlCode: "https://github.com/hamam99/nutrional-information-ai",
+    technology: "React Native + Supabase",
+  },
+  {
     name: "Tarbee",
-    description: "Survey Online App",
+    description:
+      "Tarbee is a unique educational app designed to help users of all ages deepen their understanding of the Quran through engaging quizzes and short lessons",
     image: tarbee,
     url: "https://play.google.com/store/apps/details?id=com.tarbee1.app",
     urlDemo: "https://play.google.com/store/apps/details?id=com.tarbee1.app",
@@ -52,6 +64,15 @@ const Projects = [
     technology: "React Native + Firebase",
   },
   {
+    name: "Maybank Trade",
+    description: "App for buy and sell Malaysia Stocks",
+    image: maybankTrade,
+    url: "https://play.google.com/store/apps/details?id=com.mbb.titan.my",
+    urlDemo: "https://play.google.com/store/apps/details?id=com.mbb.titan.my",
+    urlCode: "",
+    technology: "React Native + Websocket + Chart + Redux",
+  },
+  {
     name: "TM Estetik",
     description: "Online shop for tmestetik.com",
     image: tmestetik,
@@ -80,15 +101,7 @@ const Projects = [
     urlCode: "https://github.com/hamam99/OnlineCourse",
     technology: "React Native + GraphQL + Auth0",
   },
-  {
-    name: "Maybank Trade",
-    description: "App for buy and sell Indonesia Stocks",
-    image: maybankTrade,
-    url: "https://play.google.com/store/apps/details?id=com.mbb.titan.id",
-    urlDemo: "https://play.google.com/store/apps/details?id=com.mbb.titan.id",
-    urlCode: "",
-    technology: "React Native + Websocket + Chart + Redux",
-  },
+
   {
     name: "Fuxion Spark",
     description:
